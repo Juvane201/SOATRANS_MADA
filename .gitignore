@@ -1,0 +1,34 @@
+# Sécurité : Ne jamais envoyer les fichiers .env
+.env
+.env.*
+*.env
+
+# Frontend React (dossier front)
+front/node_modules/
+front/dist/
+front/build/
+
+# Backend Laravel (dossier BACKEND)
+BACKEND/vendor/
+BACKEND/storage/*.key
+BACKEND/storage/logs/
+BACKEND/bootstrap/cache/*
+BACKEND/public/build/
+BACKEND/public/hot
+
+# Next.js (dossier next_backend)
+next_backend/node_modules/
+next_backend/.next/
+next_backend/out/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+front/.vite/
+front/dist/
